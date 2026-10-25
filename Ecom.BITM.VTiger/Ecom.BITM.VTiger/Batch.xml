@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="Ecom.BITM.VTiger.HomePage.Opening_projectMilestone"/>
+      		<class name="Ecom.BITM.VTiger.Login.Login_TestCase"/>
+			<!-- Projects -->
+			<class name="Ecom.BITM.VTiger.Projects.Create_Project" />
+			<class name="Ecom.BITM.VTiger.Projects.VerifyCancelButton" />
+			<class name="Ecom.BITM.VTiger.Projects.Verification_projectsOpened" />
+			<class name="Ecom.BITM.VTiger.Projects.verifytheProjectnno" />
+			<class name="Ecom.BITM.VTiger.Projects.verification_projectform" />
+			<class name="Ecom.BITM.VTiger.Projects.Verifying_Projectstatus" />
+			<class name="Ecom.BITM.VTiger.Projects.VerifyEditProject" />
+			<class name="Ecom.BITM.VTiger.Projects.VerificationThatProjectName" />
+			<class name="Ecom.BITM.VTiger.Projects.verify_projectDetails" />
+			<class name="Ecom.BITM.VTiger.Projects.VerifySearchProject" />
+
+			<!-- Project Milestone -->
+			<class name="Ecom.BITM.VTiger.ProjectMilestone.Verifying_projectMileStone" />
+			<class name="Ecom.BITM.VTiger.ProjectMilestone.OpeningProjectMileStone" />
+			<class name="Ecom.BITM.VTiger.ProjectMilestone.Projectmilestonecreate" />
+			<class name="Ecom.BITM.VTiger.ProjectMilestone.Verifying_projectispresent" />
+
+			<!-- Project Tasks -->
+			<class name="Ecom.BITM.VTiger.ProjectTask.Create_Project_Task"/>
+       		<class name="Ecom.BITM.VTiger.ProjectTask.Verify_withemptyProjectName"/>
+      		<class name="Ecom.BITM.VTiger.ProjectTask.VerifySearchProject"/>
+       		<class name="Ecom.BITM.VTiger.ProjectTask.Delectproject"/>
+
+			<!-- FAQ -->
+			<class name="Ecom.BITM.VTiger.FAQ.Navigate_FAQ" />
+			<class name="Ecom.BITM.VTiger.FAQ.Create_FAQ" />
+			<class name="Ecom.BITM.VTiger.FAQ.Search_FAQ" />
+			<class name="Ecom.BITM.VTiger.FAQ.VerifyingBYQuestion" />
+
+			<!-- Service Contracts -->
+			<class name="Ecom.BITM.VTiger.Services_Contracts.Navigation_toSerives" />
+			<class name="Ecom.BITM.VTiger.Services_Contracts.VerifyCancelService" />
+			<class name="Ecom.BITM.VTiger.Services_Contracts.Create_ServiceContracts" />
+			<class name="Ecom.BITM.VTiger.HomePage.Opening_projectMilestone" />
+			<class name="Ecom.BITM.VTiger.Services_Contracts.VerifyInvalidSearch"/>
+			
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
